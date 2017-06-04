@@ -107,7 +107,7 @@ footer{
     right: 0;
 }
 
-footer:hover{
+footer ul span li a:hover{
     text-decoration: underline;}
     
 }

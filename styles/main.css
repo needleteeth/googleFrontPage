@@ -1,33 +1,58 @@
+
+
+
 nav{
     float:right;
-}
-#appsIcon {
-    height: 30px;
-    width: 30px;
+    
 }
 
-
-#bell {
-    height: 30px;
-    width: 30px;
+.toplink{
+    color: black;
+    opacity: .75;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
     
 }
 
 
-#catIcon {
-    
-}
-
+.cushion{
+    margin-left: 8px;
+    margin-right: 8px;}
 
 #centergoogle{
     display: block;
     margin: auto;
-    width: 40%;
+    width: 274px;
+    height: 92px
 }
 
 #centerform{
     text-align: center;
         
+}
+
+
+#search{
+    padding: 13px 13px;
+    width: 585px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+input[type=submit]{
+    background-color: #FFFFFF;
+    border: none;
+    color: #757575;
+    padding: 15px;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 

@@ -1,4 +1,10 @@
+a:link {
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: underline;
+}
 
 
 nav{
@@ -24,6 +30,7 @@ nav{
 #centergoogle{
     display: block;
     margin: auto;
+    padding-top: 50px;
     width: 274px;
     height: 92px
 }
@@ -39,6 +46,11 @@ nav{
     width: 585px;
     margin-top: 30px;
     margin-bottom: 20px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color:#FFF;
+    vertical-align: top;
+    height: 44px;
 }
 
 
@@ -68,11 +80,25 @@ li {
 }
 
 
-.rightfloat{
-    float: right
+span{
+    font-family: arial, sans-serif;
+    font-size: 17.8px;
+    color: rgb(34,34,34);
+    -webkit-appearance: none;
+    }
+
+footer{
+    background: #FFFFFF;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
 
-
-.footer {
+footer:hover{
+    text-decoration: underline;}
     
 }
